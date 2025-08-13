@@ -1,0 +1,12 @@
+{
+  "name": "citasmedicas-root",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n BACK,FRONT -c magenta,cyan \"mvnw.cmd spring-boot:run\" \"npm run dev --prefix frontend-rect\"",
+    "dev:back": "mvnw.cmd spring-boot:run",
+    "dev:front": "npm run dev --prefix frontend-rect"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
