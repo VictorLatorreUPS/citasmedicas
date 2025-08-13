@@ -19,20 +19,12 @@ Este es un sistema web desarrollado con Spring Boot que permite gestionar citas 
 
 ▶️ Ejecución del proyecto
 
-1. Clona el repositorio:
- 
-   git clone https://github.com/tu_usuario/citasmedicas.git
-   cd citasmedicas
+1. Dentro de CMD 
+COPIAR Y PEGAR ESTE CODIGO:
+ 1.1 cd "C:\Users\PCC\Documents\Deberes\Deberes 7mo Semestre\citasmedicas"
+ 1.2 npm run deves
 
-2. Ejecuta el proyecto con Maven:
-   
-   mvn spring-boot:run
-
-3. Accede a Swagger en:
-   
-   http://localhost:8080/swagger-ui/index.html
-
-▶️ Endpoints principales
+▶️ Endpoints principal
 
 - /api/medicos - Gestión de médicos
 - /api/pacientes - Gestión de pacientes
